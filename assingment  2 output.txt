@@ -1,0 +1,94 @@
+
+Table ASSINGMENT dropped.
+
+
+Table ROUTE dropped.
+
+
+Table TRUCK dropped.
+
+
+Table TRUCK created.
+
+
+Table ROUTE created.
+
+
+Table ASSINGMENT created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+TRU COMPANY                                                  YEAR
+--- -------------------------------------------------- ----------
+111 Ford                                                        1
+222 Toyota                                                      2
+333 Ram                                                         2
+444 Subaru                                                      3
+
+
+ROUT FROMCITY                                           TOCITY                                             TRU
+---- -------------------------------------------------- -------------------------------------------------- ---
+1111 Chicago                                            New York                                           111
+2222 Denver                                             Los Angeles                                        111
+3333 Washington D.C.                                    Philadelphia                                       222
+4444 Houston                                            Phoenix                                            333
+5555 Dallas                                             San Jose                                           444
+
+
+ROUT DRIVERI DRIVERNAME                                         DEPAURTUR
+---- ------- -------------------------------------------------- ---------
+1111 1111111 Carson                                             10-MAR-21
+2222 1111111 Carson                                             12-MAR-21
+1111 2222222 Jason                                              21-MAR-21
+3333 3333333 Ian                                                05-APR-21
+4444 4444444 Ben                                                30-APR-21
+5555 5555555 Luke                                               18-APR-21
+
+6 rows selected. 
+
+
+Commit complete.

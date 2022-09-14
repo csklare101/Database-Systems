@@ -1,0 +1,59 @@
+
+INSTRUMENT           PNAME                       AGE BNAME                         
+-------------------- -------------------- ---------- ------------------------------
+Bass                 El Fadil                     26 Rock Shop                     
+Bass                 St. John                     20 World Beats                   
+
+
+  MAX(AGE)     BANDID
+---------- ----------
+        24         77
+        28         55
+        30         66
+        40         88
+
+
+BNAME                         
+------------------------------
+World Beats
+
+
+       BID BNAME                          COUNT(PID)
+---------- ------------------------------ ----------
+        88 The Nobody Specials                     1
+        66 The NoNos                               2
+
+
+VNAME                         
+------------------------------
+City Bar
+Suburban Station
+
+
+       BID AVG(PAYMENT)
+---------- ------------
+        77         2350
+        66         2750
+        55         1000
+
+
+SHOWDATE  VNAME                          SUM(CAPACITY*TICKETPRICE-PAYMENT)
+--------- ------------------------------ ---------------------------------
+10-SEP-21 Suburban Station                                            1000
+29-AUG-21 Suburban Station                                            1500
+28-AUG-21 Suburban Station                                            1500
+28-JUL-21 Reggae Town                                                 3300
+13-JUL-21 City Bar                                                    6500
+12-JUL-21 City Bar                                                    6500
+20-JUN-21 Suburban Station                                            1500
+02-JUN-21 City Bar                                                    4000
+01-JUN-21 City Bar                                                    4000
+
+9 rows selected. 
+
+
+VID NVL(COUNT(SHOWDATE),0) NVL(SUM(PAYMENT),0)
+--- ---------------------- -------------------
+RT2                      1                2700
+SS1                      4                7000
+CB1                      4                9000
